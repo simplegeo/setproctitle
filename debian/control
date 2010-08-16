@@ -1,0 +1,14 @@
+Source: setproctitle
+Section: python
+Priority: extra
+Maintainer: SimpleGeo Nerds <nerds@simplegeo.com>
+Build-Depends: cdbs, debhelper (>= 7), python, python-setuptools
+Standards-Version: 3.8.3
+Homepage: http://code.google.com/p/py-setproctitle/
+
+Package: setproctitle
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: A setproctitle implementation for Python
+ setproctitle allows a python process to change its title (as
+ displayed by system tools such as ps and top).
