@@ -1,4 +1,4 @@
-Source: setproctitle
+Source: python-setproctitle
 Section: python
 Priority: extra
 Maintainer: SimpleGeo Nerds <nerds@simplegeo.com>
@@ -6,7 +6,7 @@ Build-Depends: cdbs, debhelper (>= 7), python, python-support, python-setuptools
 Standards-Version: 3.8.4
 Homepage: http://code.google.com/p/py-setproctitle/
 
-Package: setproctitle
+Package: python-setproctitle
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, python, python-setuptools
 Description: A setproctitle implementation for Python
